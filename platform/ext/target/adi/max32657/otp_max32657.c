@@ -51,7 +51,7 @@ __PACKED_STRUCT max32657_otp_nv_counters_region_t {
     uint8_t implementation_id[32];
     uint8_t cert_ref[32];
     uint8_t verification_service_url[32];
-    uint8_t profile_definition[32];
+    uint8_t profile_definition[48];
 
     uint8_t bl2_rotpk_0[100];
     uint8_t bl2_rotpk_1[100];
